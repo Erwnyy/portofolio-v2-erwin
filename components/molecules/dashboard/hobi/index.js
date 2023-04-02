@@ -4,7 +4,7 @@ const Index = () => {
     return (
         <section className="text-gray-700 body-font">
             <div className="container px-5 py-14 mx-auto ">
-                <div className="flex flex-wrap mx-20 text-center">
+                <div className="flex flex-wrap mx-20 md:m-2 text-center bg-blue-200">
                     <div className="p-4 md:w-1/4 sm:w-1/2 w-1/4">
                         <div className="border-2 border-gray-600 px-4 py-6 rounded-lg transform transition duration-500 hover:scale-110">
                             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="text-indigo-500 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
