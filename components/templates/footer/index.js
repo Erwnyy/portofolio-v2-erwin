@@ -13,7 +13,7 @@ const Index = () => {
 
   return (
     <div className='flex flex-col items-center bg-gray-background'>
-      <div className='w-3/4 md:h-[36rem]'>
+      <div className='w-3/4 md:h-[45rem]'>
         <div className='w-full h-[50vh] mb-10 border-t-[3px] ' >
           <div className='w-full h-full flex flex-col justify-center items-center'>
             <div className='flex flex-col justify-center items-center gap-4'>
@@ -30,37 +30,39 @@ const Index = () => {
           </div>
         </div>
         {/* footer clock */}
-        <div className='w-full flex justify-between md:flex-col-reverse' >
-          <div className='flex w-full justify-center'>
-            <div className='flex w-1/2 justify-evenly '>
+        <div className='w-full  flex justify-between md:flex-col-reverse' >
+          <div className='flex w-full md:justify-center  '>
+            <div className='flex md:w-1/2 w-1/4 justify-evenly '>
               <AiFillGithub size={28} />
               <AiFillLinkedin size={28} />
               <AiOutlineInstagram size={28} />
             </div>
           </div>
 
-          <div className='flex mb-10 w-[20rem] justify-between '>
-            <div className=' flex flex-col items-start '>
-              <h2 className=' font-normal text-center text-lg tracking-[3px] text-neutral-400'>
-                LOCATION
-              </h2>
-              <h2 className='font-normal text-center text-lg tracking-[3px] text-black font-semibold '>
-                INDONESIA
-              </h2>
-            </div>
+          <div className='w-full md:flex md:justify-center flex justify-end '>
+            <div className='flex mb-10 md:w-full w-3/4 md:justify-around justify-evenly'>
+              <div className=' flex flex-col items-start'>
+                <h2 className=' font-normal text-center text-lg tracking-[3px] text-neutral-400'>
+                  LOCATION
+                </h2>
+                <h2 className='font-normal text-center text-lg tracking-[3px] text-black font-semibold '>
+                  INDONESIA
+                </h2>
+              </div>
 
-            <div className='flex flex-col items-start'>
-              <h2 className='font-normal text-center text-lg tracking-[3px] text-neutral-400'>
-                CLOCK
-              </h2>
-              <h2 className='font-normal text-center text-lg tracking-[3px] text-black font-semibold '>
-                13.01
-              </h2>
-              {/* {dateState.map((e, index) => {
+              <div className='flex flex-col items-start'>
+                <h2 className='font-normal text-center text-lg tracking-[3px] text-neutral-400'>
+                  CLOCK
+                </h2>
+                <h2 className='font-normal text-center text-lg tracking-[3px] text-black font-semibold '>
+                  13.01
+                </h2>
+                {/* {dateState.map((e, index) => {
                 <h2 className='font-normal text-center text-lg tracking-[3px] text-black font-semibold '>
                   {e}
                 </h2>
               })} */}
+              </div>
             </div>
           </div>
         </div>
