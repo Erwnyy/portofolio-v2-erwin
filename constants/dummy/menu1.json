@@ -1,0 +1,68 @@
+{
+    "icon": "",
+    "menu": [
+      {
+        "nama": "ALTEA CARE REGISTER TO MITRA",
+        "id": "1",
+        "image": "/image/portofolio/Artboard1.png",
+        "desc": "My first mobile app I have ever made. I built this with React Native technology and powered by Expo. ProNef - Mobile NFT Marketplace 🌍, implements a clean design with the combination of monochrome and colorful content to illustrate professional and artistic style. This app is about a simple NFT marketplace. The design itself is made by Alvian Teddy on Dribbble",
+        "madewith": "#Next JS #Socket io",
+        "github": "",
+        "link":""
+      },
+      {
+        "nama": "ALTEA CARE CAREER PAGE",
+        "id": "2",
+        "image": "/image/portofolio/Artboard2.png",
+        "desc": "My first mobile app I have ever made. I built this with React Native technology and powered by Expo. ProNef - Mobile NFT Marketplace 🌍, implements a clean design with the combination of monochrome and colorful content to illustrate professional and artistic style. This app is about a simple NFT marketplace. The design itself is made by Alvian Teddy on Dribbble",
+        "madewith": "#Next JS #Socket io",
+        "github": "",
+        "link":""
+      },
+      {
+        "nama": "CHAMELEON COMPANY PROFILE",
+        "id": "3",
+        "image": "/image/portofolio/Artboard3.png",
+        "desc": "My first mobile app I have ever made. I built this with React Native technology and powered by Expo. ProNef - Mobile NFT Marketplace 🌍, implements a clean design with the combination of monochrome and colorful content to illustrate professional and artistic style. This app is about a simple NFT marketplace. The design itself is made by Alvian Teddy on Dribbble",
+        "madewith": "#Next JS #Socket io",
+        "github": "",
+        "link":""
+      },
+      {
+        "nama": "FIT-U MASK COMPANY PROFILE",
+        "id": "4",
+        "image": "/image/portofolio/Artboard4.png",
+        "desc": "My first mobile app I have ever made. I built this with React Native technology and powered by Expo. ProNef - Mobile NFT Marketplace 🌍, implements a clean design with the combination of monochrome and colorful content to illustrate professional and artistic style. This app is about a simple NFT marketplace. The design itself is made by Alvian Teddy on Dribbble",
+        "madewith": "#Next JS #Socket io",
+        "github": "",
+        "link":""
+      },
+      {
+        "nama": "LIVERA DASHBOARD ADMIN",
+        "id": "5",
+        "image": "/image/portofolio/Artboard5.png",
+        "desc": "awdawdwdaadwawdawdawdawdawdawdawdawd",
+        "madewith": "#Next JS #Socket io",
+        "github": "",
+        "link":""
+      },
+      {
+        "nama": "BEAUTYHAUL DASHBOARD ADMIN",
+        "id": "6",
+        "image": "/image/portofolio/Artboard6.png",
+        "desc": "awdawdwdaadwawdawdawdawdawdawdawdawd",
+        "madewith": "#Next JS #Socket io",
+        "github": "",
+        "link":""
+      },
+      {
+        "nama": "LIVERA INDONESIA BLOG",
+        "id": "7",
+        "image": "/image/portofolio/Artboard7.png",
+        "desc": "awdawdwdaadwawdawdawdawdawdawdawdawd",
+        "madewith": "#Next JS #Socket io",
+        "github": "",
+        "link":""
+      }
+    ]
+  }

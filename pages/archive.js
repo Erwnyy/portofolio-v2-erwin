@@ -1,14 +1,14 @@
 import dynamic from 'next/dynamic'
 import React from 'react'
 
-const Dashboard = dynamic(() => import('components/organisms/dashboard'));
+const Archive = dynamic(() => import('components/organisms/archive'));
 const Templates = dynamic(() => import('components/templates'));
 
 export default function Index() {
   return (
     <div>
       <Templates title={'Landing Page'} theme="LIGHT">
-        <Dashboard />
+        <Archive />
       </Templates>
     </div>
   )

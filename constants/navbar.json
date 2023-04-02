@@ -1,0 +1,40 @@
+{
+  "icon": "",
+  "menu":[
+    {
+      "parent": "HOME",
+      "link": "/",
+      "children": []
+    },
+    {
+      "parent": "DIGITAL PLATFORM",
+      "link": "/",
+      "children": []
+    },
+    {
+      "parent": "ABOUT",
+      "link": "/talent",
+      "children": []
+    },
+    {
+      "parent": "PORTFOLIO",
+      "link": "/",
+      "children": []
+    },
+    {
+      "parent": "DIGITAL MARKETING",
+      "link": "/",
+      "children": []
+    },
+    {
+      "parent": "DIGITAL TALENT",
+      "link": "/",
+      "children": []
+    },
+    {
+      "parent": "CAREER",
+      "link": "/",
+      "children": []
+    }
+  ]
+}
