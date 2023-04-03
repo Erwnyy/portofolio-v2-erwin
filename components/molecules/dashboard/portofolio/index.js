@@ -28,7 +28,12 @@ const Index = () => {
                                 query: {
                                     id: item.id,
                                     nama: item.nama,
-                                    image: item.image
+                                    image: item.image,
+                                    desc: item.desc,
+                                    madewith: item.madewith,
+                                    github: item.github,
+                                    link: item.link
+
                                  }
                         
                             }}

@@ -50,12 +50,12 @@ const Index = () => {
                 </h2>
               </div>
 
-              <div className='flex flex-col items-start'>
+              <div className='flex flex-col items-center'>
                 <h2 className='font-normal text-center text-lg tracking-[3px] text-neutral-400'>
                   CLOCK
                 </h2>
                 <h2 className='font-normal text-center text-lg tracking-[3px] text-black font-semibold '>
-                  13.01
+                  -
                 </h2>
                 {/* {dateState.map((e, index) => {
                 <h2 className='font-normal text-center text-lg tracking-[3px] text-black font-semibold '>

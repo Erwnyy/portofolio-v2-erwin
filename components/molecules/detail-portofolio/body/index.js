@@ -4,6 +4,7 @@ import React from 'react'
 
 const Index = () => {
     const { query } = useRouter();
+    console.log(query)
     return (
         <>
             <div className='w-full md:h-1/4'>
@@ -28,18 +29,17 @@ const Index = () => {
                         </div>
                         <div className='w-full mb-5'>
                             <p className='uppercase font-normal text-lg md:text-lg tracking-[9px] text-neutral-400 ml-1'>MADE WITH</p>
-                            <p className='font-mono text-2xl md:text-lg text-black'>awdawdawdawd</p>
-                            <p className='font-mono text-2xl md:text-lg text-black'>awdawdawdawd</p>
+                            <p className='font-mono text-2xl md:text-lg text-black'>{query.madewith}</p>
                         </div>
                         <div className='w-full mb-5'>
                             <p className='uppercase font-normal text-lg md:text-lg tracking-[9px] text-neutral-400 ml-1'>PREVIEW</p>
-                            <p className='font-mono text-2xl md:text-lg text-black'>awdawdawdawd</p>
-                            <p className='font-mono text-2xl md:text-lg text-black'>awdawdawdawd</p>
+                            <a href={query.link}>
+                                <p className='font-mono text-xl md:text-lg text-black'>{query.link}</p>
+                            </a>
                         </div>
                         <div className='w-full mb-5'>
-                            <p className='uppercase font-normal text-lg md:text-lg tracking-[9px] text-neutral-400 ml-1'>MADE WITH</p>
-                            <p className='font-mono text-2xl md:text-lg text-black'>awdawdawdawd</p>
-                            <p className='font-mono text-2xl md:text-lg text-black'>awdawdawdawd</p>
+                            <p className='uppercase font-normal text-lg md:text-lg tracking-[9px] text-neutral-400 ml-1'>GITHUB</p>
+                            <p className='font-mono text-2xl md:text-lg text-black'>{query.github}</p>
                         </div>
                     </div>
                     <div className='w-1/2 md:w-full '>

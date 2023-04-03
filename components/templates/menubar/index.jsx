@@ -2,6 +2,7 @@ import Image from "next/image";
 import Service from "./service";
 import Link from "next/link";
 import { BiCategoryAlt, BiSearchAlt, BiCart, BiHome } from "react-icons/bi";
+import { AiFillProject, AiOutlineMessage } from "react-icons/ai";
 import { FaRegUser } from "react-icons/fa";
 import { MdDarkMode, MdLightMode } from "react-icons/md";
 
@@ -25,14 +26,14 @@ const Index = ({ type = "LIGHT" }) => {
             <Link href="/">
               <div className="flex justify-center text-slate-50 text-sm hover:text-blue-300">
                 <div className="pb-[5px] h-[40px] w-[40px] flex justify-center items-center bg-dark-2 rounded-full" >
-                  <BiHome size={23} />
+                  <AiFillProject size={23} />
                 </div>
               </div>
             </Link>
             <Link href="/">
               <div className="flex justify-center text-white hover:text-blue-300">
                 <div className="pb-[5px] h-[40px] w-[40px] flex justify-center items-center bg-dark-2 rounded-full" >
-                  <BiHome size={23} />
+                  <AiOutlineMessage size={23} />
                 </div>
               </div>
             </Link>
