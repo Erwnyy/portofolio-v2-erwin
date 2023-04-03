@@ -44,7 +44,7 @@ const Index = () => {
                     </div>
                     <div className='w-1/2 md:w-full '>
                         <div className='w-[100%]'>
-                            <p className='font-mono text-2xl md:text-lg text-neutral-400'>My first mobile app I have ever made built with Flutter. Lucely is an ultimate counselling app which lets the user choose their desired psychologists or even mentors. Lucely is made for someone who has something like a psychological problem in their life. The users can book online their psychologists, mentors as well as experts online so they can easily contact them by voice call or video call. Apart from that, Lucely will provide its user by inviting them to join a social event and also a super guide from Lucely called LuceGuide.</p>
+                            <p className='font-mono text-2xl md:text-lg text-neutral-400'>{query.desc}</p>
                         </div>
                     </div>
                 </div>
