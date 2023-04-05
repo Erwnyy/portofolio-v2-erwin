@@ -11,7 +11,7 @@ const Index = ({ children, title }) => {
   return (
     <React.Fragment>
         <Header title={title} />
-        <main className="h-screen w-full z-20">
+        <main className="h-screen w-full z-20 ">
           <div>
             <MenuBar />
             {children}

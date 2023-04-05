@@ -9,8 +9,8 @@ const Index = () => {
                 <div className=' w-1/2 md:w-full mt-28 md:mt-0  z-30  ml-24 md:ml-0'>
                     <div className='mb-6 flex flex-col md:items-center z-50'>
                         <p className='uppercase font-normal text-xl md:text-lg tracking-[9px] text-neutral-400 ml-1'>ERWIN YULIYANTO</p>
-                        <p className='font-bold text-[5rem] md:text-[3rem]'>Front End</p>
-                        <p className='font-bold text-[5rem] md:text-[3rem] mb-4'>Developer</p>
+                        <p className='font-bold text-[5rem] md:text-[3rem] text-neutral-900'>Front End</p>
+                        <p className='font-bold text-[5rem] md:text-[3rem] text-neutral-900 mb-4'>Developer</p>
                         <div className='flex md:justify-center'>
                             <span className='font-sans md:text-center text-slate-400 text-lg'>A Front end developer who loves Web Development, Mobile App Development and Artificial Intelligence. Currently, on his 3rd year of study at university.</span>
                         </div>

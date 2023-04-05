@@ -32,7 +32,7 @@ const Index = () => {
         {/* footer clock */}
         <div className='w-full  flex justify-between md:flex-col-reverse' >
           <div className='flex w-full md:justify-center  '>
-            <div className='flex md:w-1/2 w-1/4 justify-evenly '>
+            <div className='flex md:w-1/2 w-1/4 justify-evenly text-neutral-900'>
               <AiFillGithub size={28} />
               <AiFillLinkedin size={28} />
               <AiOutlineInstagram size={28} />
