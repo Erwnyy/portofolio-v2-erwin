@@ -6,7 +6,6 @@ import { AiFillGithub, AiFillLinkedin, AiOutlineInstagram } from "react-icons/ai
 const Index = () => {
   const [dateState, setDateState] = useState(new Date());
 
-
   useEffect(() => {
     setInterval(() => setDateState(new Date()), 30000);
   }, []);

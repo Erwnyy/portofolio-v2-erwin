@@ -12,7 +12,7 @@ const Index = () => {
                         <p className='font-bold text-[5rem] md:text-[3rem] text-neutral-900'>Front End</p>
                         <p className='font-bold text-[5rem] md:text-[3rem] text-neutral-900 mb-4'>Developer</p>
                         <div className='flex md:justify-center'>
-                            <span className='font-sans md:text-center text-slate-400 text-lg'>A Front end developer who loves Web Development, Mobile App Development and Artificial Intelligence. Currently, on his 3rd year of study at university.</span>
+                            <span className='font-sans md:text-center text-slate-400 text-lg'>A Front end developer who loves Web Development, Mobile App Development and Artificial Intelligence. Currently, I have graduated from the National University of Informatics Engineering.</span>
                         </div>
                     </div>
                     <div className=' w-1/2 md:w-full flex md:justify-center '>
