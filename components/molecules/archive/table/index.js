@@ -11,16 +11,16 @@ const Index = () => {
       {/* Commti */}
       <div>
         <p className="uppercase font-normal text-xl md:text-lg tracking-[9px] text-neutral-400 ml-1">
-          ERWIN YULIYANTO 
+          ERWIN YULIYANTO 123123123123
         </p>
         <p className="uppercase font-normal text-xl md:text-lg tracking-[9px] text-neutral-400 ml-1">
-          ERWIN YULIYANTO 
+          ERWIN YULIYANTO 123123123
         </p>
         <p className="font-bold text-[5rem] md:text-[3rem] text-neutral-900">
-          Front End 
+          Front End 123 1231231231
         </p>
         <p className="font-bold text-[5rem] md:text-[3rem] text-neutral-900 mb-4">
-          Developer 
+          Developer  123123123
         </p>
       </div>
       {/* end */}
