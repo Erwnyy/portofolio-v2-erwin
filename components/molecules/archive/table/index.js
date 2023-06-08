@@ -10,16 +10,16 @@ const Index = () => {
     <div className="w-full">
       {/* Commti */}
         <div>
-            <h1>Erwin Yuliyanto</h1>
+            <h1>Erwin Yuliyanto12312123</h1>123123123123
             <p className="uppercase font-normal text-xl md:text-lg tracking-[9px] text-neutral-400 ml-1">
-            ERWIN YULIYANTO
-            </p>
+            ERWIN YULIYANTOawdawdawdawd
+            </p>123123123123
             <p className="font-bold text-[5rem] md:text-[3rem] text-neutral-900">
-            Front End
-            </p>
+            Front Endawdawdawdawd
+            </p>123123123123123
             <p className="font-bold text-[5rem] md:text-[3rem] text-neutral-900 mb-4">
-            Developer
-            </p>
+            Developerawdawdawdawdawdawd
+            </p>123123123
         </div>
       {/* end */}
       <div className="mb-20 mt-10 md:mb-10 mx-24 md:mx-4 flex flex-col ">
