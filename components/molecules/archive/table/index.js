@@ -5,7 +5,6 @@ import portofolio from "constants/dummy/menu.json";
 import Link from "next/link";
 
 const Index = () => {
-  console.log(portofolio, "user");
   return (
     <div className="w-full">
       <div className="mb-20 mt-10 md:mb-10 mx-24 md:mx-4 flex flex-col ">
