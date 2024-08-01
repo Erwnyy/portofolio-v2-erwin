@@ -18,12 +18,12 @@ const Index = () => {
                     <div className=' w-1/2 md:w-full flex md:justify-center '>
                         <div className='cursor-pointer'>
                             <Link href="/archive" shallow={true}>
-                                <button className='cursor-pointer mr-5 bg-blue-500 hover:bg-blue-400 text-white font-bold py-4 px-8  border-b-4 border-blue-700 hover:border-blue-500 rounded'>My Project</button>
+                                <button className='cursor-pointer mr-5 bg-blue-500 hover:bg-blue-400 text-white font-bold py-4 px-4  border-b-4 border-blue-700 hover:border-blue-500 rounded'>My Project</button>
                             </Link>
                         </div>
                         <div className='cursor-pointer '>
                             <a href='https://github.com/Erwnyy' >
-                                <button className='cursor-pointer mr-5 bg-blue-500 hover:bg-blue-400 text-white font-bold py-4 px-8  border-b-4 border-blue-700 hover:border-blue-500 rounded'>Github</button>
+                                <button className='cursor-pointer mr-5 bg-blue-500 hover:bg-blue-400 text-white font-bold py-4 px-6 border-b-4 border-blue-700 hover:border-blue-500 rounded'>Github</button>
                             </a>
                         </div>
                     </div>

@@ -1,7 +1,7 @@
 import dynamic from "next/dynamic";
 
 // const SectionHeader = dynamic(() => import("@/components/molecules/profile/header"));
-const SectionTable = dynamic(() => import("components/molecules/archive/table"));
+const SectionTable = dynamic(() => import("@/components/molecules/archive/table"));
 
 
 const Index = () => {

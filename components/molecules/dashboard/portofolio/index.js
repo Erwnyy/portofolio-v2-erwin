@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React, { useState } from 'react'
-import portofolio from 'constants/dummy/menu1.json';
+import portofolio from '@/constants/dummy/menu1.json';
 import Link from 'next/link';
 
 const Index = () => {
@@ -12,7 +12,6 @@ const Index = () => {
         const detail = portofolio.menu.find((x) => x.id === id);
         setDetail(detail)
     }
-
     return (
         <div className='flex flex-col mb-10 z-30'>
             <div className='mb-20 md:mb-10 mx-24 md:mx-5 flex flex-col md:items-center '>

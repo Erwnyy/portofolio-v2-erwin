@@ -1,7 +1,7 @@
 import React from "react";
 import { AiFillGithub } from "react-icons/ai";
 import { BiLinkExternal } from "react-icons/bi";
-import portofolio from "constants/dummy/menu.json";
+import portofolio from "@/constants/dummy/menu.json";
 import Link from "next/link";
 
 const Index = () => {
@@ -33,7 +33,7 @@ const Index = () => {
               >
                 <td className="text-center w-16 p-2 ">{index + 1}</td>
                 <td className="text-center p-2 ">{item.nama}</td>
-                <td className="text-center p-2 ">awdawdawd</td>
+                <td className="text-center p-2 ">-</td>
                 <td className="text-center p-2 flex justify-center ">
                   <div className="w-3/4  flex justify-evenly">
                     <Link href="/">

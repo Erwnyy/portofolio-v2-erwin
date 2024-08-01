@@ -1,6 +1,6 @@
 import dynamic from "next/dynamic";
 
-const SectionDetail = dynamic(() => import("components/molecules/detail-portofolio/body"));
+const SectionDetail = dynamic(() => import("@/components/molecules/detail-portofolio/body"));
 
 const Index = ({query}) => {
   console.log(query, 'tak')
